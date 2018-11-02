@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="dist/Vue.js"></script>
+</head>
+<body>
+<script>
+
+    let op = {a: 2}
+    new Vue({
+        data: op,
+        render: function (v) {
+            // console.log(op.a)
+            console.log(v.a, '视图取值')
+        }
+    })
+
+</script>
+</body>
+</html>

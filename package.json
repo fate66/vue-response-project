@@ -1,0 +1,25 @@
+{
+  "name": "vue-response-project",
+  "version": "1.0.0",
+  "description": "模拟vue响应式系统",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel lib -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fate66/vue-response-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fate66/vue-response-project/issues"
+  },
+  "homepage": "https://github.com/fate66/vue-response-project#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
