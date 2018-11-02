@@ -1,5 +1,5 @@
 
-模拟mvvm响应式，使用es6的语法，需要使用babel转换
+模拟Vue响应式，使用es6的语法，需要使用babel转换
 
 1、clone 项目
 
